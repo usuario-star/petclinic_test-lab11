@@ -12,3 +12,4 @@ mvn test -Dspring.profiles.active=mysql
 | Integrante | Rama Git | Casos / Pruebas Implementadas |
 |---|---|---|
 | Jerardo Cutipa | `feature/caso2-owner-tests` | Caso 2: `OwnerServiceTest` (CRUD, búsquedas y casos de error) |
+| Max Muñoz | `feature/caso1-vet-tests` | Caso 1: `VetServiceTest` (CRUD, búsquedas y activación/desactivación) |
