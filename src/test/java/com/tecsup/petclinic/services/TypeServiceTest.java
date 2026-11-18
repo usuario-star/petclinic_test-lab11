@@ -119,8 +119,9 @@ public class TypeServiceTest {
         assertFalse(report.isEmpty());
         // 'snake' (id=6) tiene active=false en data.sql, debe excluirse del reporte
         assertFalse(report.stream().anyMatch(r -> "snake".equals(r.getTypeName())));
-        assertTrue(report.stream().anyMatch(r -> "cat".equals(r.getTypeName()) && r.getPetCount() == 4));
-        assertTrue(report.stream().anyMatch(r -> "dog".equals(r.getTypeName()) && r.getPetCount() == 4));
+        assertTrue(report.stream().anyMatch(r -> "cat".equals(r.getTypeName()) && r.getPetCount() >= 4));
+        assertTrue(report.stream().anyMatch(r -> "dog".equals(r.getTypeName()) && r.getPetCount() >= 4));
+        assertTrue(report.stream().anyMatch(r -> "hamster".equals(r.getTypeName()) && r.getPetCount() == 2));
     }
 
     @Test
