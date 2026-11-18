@@ -14,3 +14,4 @@ mvn test -Dspring.profiles.active=mysql
 | Jerardo Cutipa | `feature/caso2-owner-tests` | Caso 2: `OwnerServiceTest` (CRUD, búsquedas y casos de error) |
 | Max Muñoz | `feature/caso1-vet-tests` | Caso 1: `VetServiceTest` (CRUD, búsquedas y activación/desactivación) |
 | David Rojas | `feature/caso3-caso5-specialty-type-tests` | Casos 3 y 5: `SpecialtyServiceTest` y `TypeServiceTest` |
+| Julio Perez | `feature/caso4-visit-tests` | Caso 4: `VisitServiceTest` (CRUD, relaciones, rangos de fecha y costos) |
