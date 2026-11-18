@@ -15,3 +15,7 @@ mvn test -Dspring.profiles.active=mysql
 | Max Muñoz | `feature/caso1-vet-tests` | Caso 1: `VetServiceTest` (CRUD, búsquedas y activación/desactivación) |
 | David Rojas | `feature/caso3-caso5-specialty-type-tests` | Casos 3 y 5: `SpecialtyServiceTest` y `TypeServiceTest` |
 | Julio Perez | `feature/caso4-visit-tests` | Caso 4: `VisitServiceTest` (CRUD, relaciones, rangos de fecha y costos) |
+| Jerardo Cutipa | `feature/caso6-vet-specialty-tests` | Caso 6: `VetSpecialtyServiceTest` (asignación, búsquedas, especialidad principal y eliminación) |
+
+### Conflictos resueltos
+- Conflicto en `README.md` al integrar `feature/caso3-caso5-specialty-type-tests` en `main` (colisión en la tabla de integrantes con `feature/caso1-vet-tests`), resuelto conservando los aportes de ambos integrantes.
